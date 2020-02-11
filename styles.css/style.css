@@ -1,0 +1,25 @@
+.logo {
+    border: 3px solid black;
+}
+
+.blog {
+    border: 3px solid yellow;
+}
+.contacto {
+    border: 3px solid pink;
+}
+
+.diversidad {
+    width: 100%;
+    heigth: 100%;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    border: 3px solid red;
+    background-color: #3CDBC0;
+    display: inline-block;
+    
+}
