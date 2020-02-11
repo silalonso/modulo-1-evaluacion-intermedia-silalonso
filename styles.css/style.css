@@ -1,43 +1,49 @@
 .header {
-    border: 3px solid green;
 display: inline-block;
-align-content: center;
+justify-content: center;
+ /* border: 3px solid green;*/
 
 }
 
 .logo {
     display: block;
-    border: 3px solid black;
+    margin-top: 10px;
+    /*border: 3px solid black;*/
+    
 }
 
 .blog {
     display: inline-block;
-    border: 3px solid yellow;
+    margin-top: 10px;
+    margin-bottom: 13px;
+   /* border: 3px solid yellow;*/
     
 }
 .contacto {
     display: inline-block;
-    border: 3px solid pink;
-    margin-left: 20px
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    /*border: 3px solid pink;*/
 
-}
-
-.diversidad {
-    border: 3px solid black;
-margin-top: 100px;
-margin-left: 100px;
-margin-right: 100px;
- text-align: center;
- 
 }
 
 .contenedor {
     width: 100vh;
-    
     height: 100vh;
     color: #ffffff;
-    border: 3px solid red;
     background-color: #3CDBC0;
-    
-    
+    align-items: center;
+    justify-content: center;
+     /*border: 3px solid red;*/
+     
+}
+
+.diversidad {
+
+    width: 200px;
+    height: 200px;
+    text-align: center;
+     /* border: 3px solid black;*/
+
 }
