@@ -1,25 +1,39 @@
+.header {
+    border: 3px solid green;
+display: inline-block;
+align-content: center;
+
+}
+
 .logo {
+    display: block;
     border: 3px solid black;
 }
 
 .blog {
+    display: inline-block;
     border: 3px solid yellow;
+    
 }
 .contacto {
+    display: inline-block;
     border: 3px solid pink;
+    margin-left: 20px
+
 }
 
 .diversidad {
-    width: 100%;
-    heigth: 100%;
+ text-align: center;
+ 
 }
 
 .contenedor {
-    width: 100%;
-    height: 100%;
+    width: 100vh;
+    
+    height: 100vh;
     color: #ffffff;
     border: 3px solid red;
     background-color: #3CDBC0;
-    display: inline-block;
+    
     
 }
