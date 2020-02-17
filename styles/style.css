@@ -1,3 +1,8 @@
+.body {
+  font-family: "Rubik", sans-serif;
+  margin: 0px;
+}
+
 .header {
   display: inline-block;
   justify-content: center;
@@ -27,16 +32,20 @@
 }
 
 .contenedor {
-  width: 100vh;
+  width: 100%;
   height: 100vh;
+  font-size: 30px;
   color: #ffffff;
   background-color: #3cdbc0;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   /*border: 3px solid red;*/
 }
 
 .diversidad {
+  font-family: "Rubik", sans-serif;
   width: 200px;
   height: 200px;
   text-align: center;
